@@ -50,23 +50,23 @@ Config.AIResponse = {
 
 -- To Set This Up visit https://forum.cfx.re/t/how-to-updated-discord-rich-presence-custom-image/157686
 Config.Discord = {
-    isEnabled = false,                                     -- If set to true, then discord rich presence will be enabled
-    applicationId = '00000000000000000',                   -- The discord application id
-    iconLarge = 'logo_name',                               -- The name of the large icon
-    iconLargeHoverText = 'This is a Large icon with text', -- The hover text of the large icon
-    iconSmall = 'small_logo_name',                         -- The name of the small icon
-    iconSmallHoverText = 'This is a Small icon with text', -- The hover text of the small icon
+    isEnabled = true,                                     -- If set to true, then discord rich presence will be enabled
+    applicationId = '1331451445014171709',                   -- The discord application id
+    iconLarge = '1024x1024Logo',                               -- The name of the large icon
+    iconLargeHoverText = 'Join Cornerstone RP!', -- The hover text of the large icon
+    iconSmall = '512x512Logo',                         -- The name of the small icon
+    iconSmallHoverText = 'More Info in CRP Discord', -- The hover text of the small icon
     updateRate = 60000,                                    -- How often the player count should be updated
     showPlayerCount = true,                                -- If set to true the player count will be displayed in the rich presence
     maxPlayers = 48,                                       -- Maximum amount of players
     buttons = {
         {
-            text = 'First Button!',
-            url = 'fivem://connect/localhost:30120'
+            text = 'Join CRP Discord!',
+            url = 'https://discord.gg/4pMrFFX8TE'
         },
         {
-            text = 'Second Button!',
-            url = 'fivem://connect/localhost:30120'
+            text = 'Join CRP Discord!',
+            url = 'https://discord.gg/4pMrFFX8TE'
         }
     }
 }
